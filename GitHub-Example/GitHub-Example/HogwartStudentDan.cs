@@ -8,6 +8,7 @@ using static System.Console;
 
 
     
+
         public class HogwartStudentDan : HogwartStudent
         {
 
@@ -26,6 +27,9 @@ using static System.Console;
         {
             return "Raees help.";
         }
-    }
+
+
+  
+}
     
 

@@ -11,8 +11,7 @@ using static System.Console;
 public class HogwartStudentSam : HogwartStudent
 {
     public override string Name => "Sam";
-    public HogwartStudentSam() : base(100, 100
-        , House.Hufflepuff) { }
+    public HogwartStudentSam() : base(100, 100, House.Hufflepuff) { }
     protected override string CastSpell()
     {
         return "Kachow";
