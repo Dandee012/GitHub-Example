@@ -18,7 +18,7 @@ using static System.Console;
 
         protected override string SayCatchPhrase()
         {
-            return "Why tho?";
+            return "Raees help.";
         }
     }
     
