@@ -8,19 +8,19 @@ using static System.Console;
 
 
     
-        public class HogwartStudentDan : HogwartStudent
-        {
+public class HogwartStudentDan : HogwartStudent
+{
     public override string Name => "Dan";
-            public HogwartStudentDan() : base(1, 1, House.Hufflepuff) { }
-        protected override string CastSpell()
-        {
-            return "Kachow";  
-        }
-
-        protected override string SayCatchPhrase()
-        {
-            return "Raees help.";
-        }
+    public HogwartStudentDan() : base(1, 1, House.Hufflepuff) { }
+    protected override string CastSpell()
+    {
+        return "Kachow";  
     }
+
+    protected override string SayCatchPhrase()
+    {
+        return "Raees help.";
+    }
+}
     
 
