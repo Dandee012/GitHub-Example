@@ -1,15 +1,15 @@
-abstract class HogwartStudent{
+public abstract class HogwartStudent{
 
-    public abstract string Name { get; }
+    public  string Name { get; }
     public int HitPoints { get; private set; }
     public int Defense { get; private set; }
     public House House { get; private set; }
 
-    public HogwartStudent(int hitPoints, int defense, House house){
+    public HogwartStudent(int hitPoints, int defense, House house)
+    {
         HitPoints = hitPoints;
         Defense = defense;
         House = house;
-
     }
 
     public override string ToString(){
@@ -32,7 +32,7 @@ abstract class HogwartStudent{
     protected abstract string CastSpell();
 }
 
-enum House{
+public enum House{
     Gryffindor,
     Hufflepuff,
     Ravenclaw,
