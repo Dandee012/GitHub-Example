@@ -7,8 +7,17 @@ public class Program{
         HogwartStudent[] hogwartStudents =
             {
 
+
             new HogwartStudentDan(),
-            new HogwartStudentNat()
+            new HogwartStudentNat(),
+
+
+            new HogwartStudentNaan(),
+
+            
+            new HogwartStudentSam(),
+            new HogwartStudentKhona(),
+
 
             };
 

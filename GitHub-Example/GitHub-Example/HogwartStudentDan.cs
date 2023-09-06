@@ -8,10 +8,22 @@ using static System.Console;
 
 
     
+
         public class HogwartStudentDan : HogwartStudent
+
 {
-    public override string Name => "Nat";
+    
+   
+
+        
+
+
+    public override string Name => "TopNaanBread";
     public HogwartStudentDan() : base(1, 1, House.Hufflepuff) { }
+
+   
+
+
         protected override string CastSpell()
         {
             return "Kachow";  
@@ -21,6 +33,9 @@ using static System.Console;
         {
             return "Raees Help.";
         }
-    }
+
+
+  
+}
     
 

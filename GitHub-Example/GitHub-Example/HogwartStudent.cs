@@ -1,6 +1,13 @@
 public abstract class HogwartStudent{
 
+
     public abstract string Name { get; }
+
+
+    
+
+   
+
     public int HitPoints { get; private set; }
     public int Defense { get; private set; }
     public House House { get; private set; }
