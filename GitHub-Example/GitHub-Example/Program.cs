@@ -12,7 +12,7 @@ public class Program{
 
             new HogwartStudentDan(),
             new HogwartStudentSam(),
-
+            new HogwartStudentKhona(),
 
             };
 
