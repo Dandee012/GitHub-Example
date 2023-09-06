@@ -14,12 +14,12 @@ public class HogwartStudentSam : HogwartStudent
     public HogwartStudentSam() : base(100, 100, House.Hufflepuff) { }
     protected override string CastSpell()
     {
-        return "Kachow";
+        return "bruh...";
     }
 
     protected override string SayCatchPhrase()
     {
-        return "";
+        return "LETS GOOOOOOO";
     }
 }
 

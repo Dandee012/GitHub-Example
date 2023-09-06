@@ -10,32 +10,18 @@ using static System.Console;
     
 
         public class HogwartStudentDan : HogwartStudent
-
-{
-    
-   
-
-        
-
-
-    public override string Name => "TopNaanBread";
-    public HogwartStudentDan() : base(1, 1, House.Hufflepuff) { }
-
-   
-
-
-        protected override string CastSpell()
         {
-            return "Kachow";  
-        }
+            public override string Name => "Dan";
+            public HogwartStudentDan() : base(1, 1, House.Hufflepuff) { }
+            protected override string CastSpell()
+            {
+                return "Kachow";  
+            }
 
-        protected override string SayCatchPhrase()
-        {
-            return "Raees Help.";
-        }
-
-
-  
+            protected override string SayCatchPhrase()
+            {
+                return "Raees Help.";
+            }
 }
     
 
